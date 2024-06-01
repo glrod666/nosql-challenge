@@ -39,7 +39,7 @@ RatingValue refers to the overall rating decided by the Food Authority and range
 Note: This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed their inspection but isn't given a number rating. We will coerce non-numeric values to nulls during the database setup before converting ratings to integers.
 The scores for Hygiene, Structural, and ConfidenceInManagement work in reverse. This means, the higher the value, the worse the establishment is in these areas.
 
-![image](part 3.png)
+![image](part3.png)
 
 
 
